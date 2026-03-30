@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy.sql import func
 from datetime import datetime
 
-db = create_engine("sqlite:///readme.db")
+db = create_engine("sqlite:///database.db")
 Session = sessionmaker(bind=db)
 session = Session()
 
